@@ -1,6 +1,8 @@
 # telegram-bot-api-engine
 bangHasan Bot Engine for Telegram Bot API
 
+![screenshot](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/ss01.jpg?raw=true)
+
 ## Menjalankan
 
 ### 1. Download
