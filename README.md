@@ -28,3 +28,7 @@ bHBE.exe
 ### 4. Selesai
 
 Test Bot nya!
+
+## Diskusi
+
+Silakan bergabung pada grup telegram [@botIndonesia](https://t.me/botindonesia)
