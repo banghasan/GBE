@@ -109,7 +109,7 @@ daftar perintah yang sudah built-in di dalam bot
 
 - `versi` perintah untuk mengecek versi bot saat ini
 - `ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
-- `die` perintah untuk mematikan bot (ini tidak bisa ditimpa, dijalankan hanya oleh owner yang sudah di set di `.env`)
+- `die` perintah untuk mematikan bot (hanya owner)
 
 ## Diskusi
 
