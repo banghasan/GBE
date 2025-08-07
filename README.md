@@ -49,7 +49,7 @@ Nama folder bebas, bisa disesuaikan dengan isi file `.env`
 $ mkdir plugins
 ```
 
-Jika ingin membuat plugins, silakan cek sample di folder `plugins`
+Jika ingin membuat _plugins_, silakan cek sample di folder [plugins](plugins)
 
 ### 4. Jalankan
 
@@ -95,7 +95,7 @@ export default {
 
 ```
 
-Contoh realnya bisa dilihat pada folder `plugins`
+Contoh realnya bisa dilihat pada folder [plugins](plugins)
 
 ##  Default
 
@@ -105,11 +105,11 @@ tanda perintah awalan dapat menggunakan salah satu karakter sebagai berikut: `./
 
 ### command
 
-daftar perintah yang sudah di built-in di dalam bot
+daftar perintah yang sudah built-in di dalam bot
 
-- versi
-- ping
-- die (ini tidak bisa ditimpa, dijalankan hanya oleh owner yang sudah di set di `.env`)
+- `versi` perintah untuk mengecek versi bot saat ini
+- `ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
+- `die` perintah untuk mematikan bot (ini tidak bisa ditimpa, dijalankan hanya oleh owner yang sudah di set di `.env`)
 
 ## Diskusi
 
