@@ -7,7 +7,7 @@
 export default {
   name: "welcome",
   status: true,
-  type: "on", // command, hears, on
+  type: "on", // command, hears, on, callbackQuery
   clue: "contoh welcome bot ketika ada yang masuk",
   handler: "message:new_chat_members",
   exec: function async(ctx) {

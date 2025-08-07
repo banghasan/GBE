@@ -74,28 +74,10 @@ Test Bot nya!
 
 ## Plugins
 
-Support script yang bisa dibuat sendiri.
+Untuk memudahkan membuat dan memodifikasi perintah atau respon bisa, dapat disisipkan script file pada folder `plugins`
 
-Nama file harus diakhiri dengan `.ts`
-
-Format paling sederhana saat ini:
-
-```ts
-// harus di export default
-export default {
-  name: "namaFungsi",
-  status: true,  // true atau false, aktifkan atau matikan
-  type: "command", // command, hears, on
-  clue: "keterangan fungsi", 
-  handler: "trigger",
-  exec: function async(ctx) { // eksekusi ketika handler di tangkap
-    ctx.reply("pesan");
-  },
-};
-
-```
-
-Contoh realnya bisa dilihat pada folder [plugins](plugins)
+- Penjelasan dapat dilihat pada halaman [plugins](plugins.md)
+- Sample bisa dilihat pada folder [plugins](plugins)
 
 ##  Default
 
