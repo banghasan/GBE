@@ -11,7 +11,7 @@
 export default {
   name: "versi",
   status: false,
-  type: "hears", // command, hears, on, callbackQuery
+  type: "hears", // command, hears, reaction, on, callbackQuery
   clue: ["Fungsi: cek versi", "Format:\n <code>.ver</code>"], 
   handler: /^[!\/\.]((ver|per)(si|tion)?|about|tentang)?$/i, // command untuk handle: ver, versi, persi, version, about, tentang
   exec: function async(ctx) {

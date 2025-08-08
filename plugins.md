@@ -17,7 +17,7 @@ dapat disisipan code inisiasi
 export default {
   name: "namaPlugins",
   status: true, // true atau false: aktif atau non aktifkan
-  type: "command", // pilihan: command, hears, on, callbackQuery
+  type: "command", // pilihan: command, hears, reaction, on, callbackQuery
   clue: "penjelasan tentang plugins", // keterangan
   handler: "start", // bisa text, regex, array, atau sesuai fungsi type
   exec: function (ctx) {
@@ -27,3 +27,12 @@ export default {
 };
 
 ```
+
+### Tipe
+
+Tipe plugins yang dapat ditentukan adalah:
+- `command` berguna untuk hal simple seperti `/start` dlsb
+- `hears` sangat berguna untuk penggunaan regex
+- `reaction` untuk menangani pesan reaksi
+- `on` untuk menangani filter khusus.
+- `callbackQuery` untuk menangani tombol keyboard inline, bot inline, dsb

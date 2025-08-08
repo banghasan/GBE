@@ -49,7 +49,7 @@ Nama folder bebas, bisa disesuaikan dengan isi file `.env`
 $ mkdir plugins
 ```
 
-Jika ingin membuat _plugins_, silakan cek sample di folder [plugins](plugins)
+Jika ingin membuat _plugins_, silakan cek penjelasan pada [halaman plugins](plugins)
 
 ### 4. Jalankan
 
@@ -74,24 +74,28 @@ Test Bot nya!
 
 ## Plugins
 
-Untuk memudahkan membuat dan memodifikasi perintah atau respon bisa, dapat disisipkan script file pada folder `plugins`
+Untuk memudahkan bisa membuat dan memodifikasi perintah atau respon, dapat disisipkan script file pada folder `plugins` (sesuai seting di `.env`)
 
 - Penjelasan dapat dilihat pada halaman [plugins](plugins.md)
-- Sample bisa dilihat pada folder [plugins](plugins)
+- Sample bisa dilihat pada [folder plugins](plugins)
 
 ##  Default
 
 ### tanda perintah
 
-tanda perintah awalan dapat menggunakan salah satu karakter sebagai berikut: `./!`
+tanda perintah awalan secara umum dapat menggunakan salah satu karakter sebagai berikut: `./!`
 
 ### command
 
 daftar perintah yang sudah built-in di dalam bot
 
 - `versi` perintah untuk mengecek versi bot saat ini
-- `ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
-- `die` perintah untuk mematikan bot (hanya owner)
+- `/ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
+- `/die` perintah untuk mematikan bot (hanya owner)
+
+## Bugs
+
+diketahui bugs untuk OS Windows, aneh module nya belum bisa diload
 
 ## Diskusi
 

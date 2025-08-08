@@ -10,7 +10,7 @@
 export default {
   name: "start",
   status: true,
-  type: "command", // command, hears, on, callbackQuery
+  type: "command", // command, hears, reaction, on, callbackQuery
   clue: ["Fungsi: Start command bot", "Format:\n <code>/start</code>"],
   handler: "start",
   exec: function (ctx) {
