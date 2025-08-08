@@ -32,9 +32,6 @@ WEBHOOK=false
 WEBHOOK_PORT=3000
 # secret random text or anything
 WEBHOOK_SECRET="m2B3i06ecZkl"
-
-# path
-LOAD=plugins/
 ```
 
 ### 3. Bikin folder `plugins`
@@ -65,6 +62,8 @@ $ ./gBE_x64
 ```cmd
 gBE.exe
 ```
+
+atau klik 2x pada file `gBE.exe`
 
 ### 4. Selesai
 
