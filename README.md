@@ -34,21 +34,7 @@ WEBHOOK_PORT=3000
 WEBHOOK_SECRET="m2B3i06ecZkl"
 ```
 
-### 3. Bikin folder `plugins`
-
-Jika belum punya, buatlah folder `plugins` untuk nanti menaruh file-file plugins
-
-Nama folder bebas, bisa disesuaikan dengan isi file `.env`
-
-#### Linux
-
-```sh
-$ mkdir plugins
-```
-
-Jika ingin membuat _plugins_, silakan cek penjelasan pada [halaman plugins](plugins)
-
-### 4. Jalankan
+### 3. Jalankan
 
 #### Linux
 sesuaikan jika menggunakan x64 atau arm
