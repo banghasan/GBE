@@ -78,10 +78,6 @@ daftar perintah yang sudah built-in di dalam bot
 - `/ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
 - `/die` perintah untuk mematikan bot (hanya owner)
 
-## Bugs
-
-diketahui bugs untuk OS Windows, aneh module nya belum bisa diload
-
 ## Diskusi
 
 Silakan bergabung pada grup telegram [@botIndonesia](https://t.me/botindonesia)
