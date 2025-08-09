@@ -7,6 +7,13 @@ Dibuat untuk mempermudah membuat bot dengan custom script secara bebas dan lelua
 
 ### 1. Download
 Download release terbaru sesuai OS kalian masing-masing.
+Jika linux jangan lupa di kasih akses execution (+x).
+
+Misalnya:
+
+```sh
+chmod +x gBE_x64
+```
 
 ### 2. Edit .env
 
