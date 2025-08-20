@@ -1,6 +1,6 @@
 ## Plugins
 
-saat dibuat doc ini, release versi 0.6b
+Update saat dibuat dokumentasi plugins ini, release versi `1.00.0 stabil`
 
 ### Format
 
@@ -8,6 +8,7 @@ Penamaan dengan ekstensi file `.ts` selain itu akan di skip (dilompati)
 
 ```ts
 // pengenalan format plugins
+// Contoh File: plugins/namaFile.ts 
 
 /*
 dapat disisipan code inisiasi
@@ -18,15 +19,22 @@ export default {
   name: "namaPlugins",
   status: true, // true atau false: aktif atau non aktifkan
   type: "command", // pilihan: command, hears, reaction, on, callbackQuery
-  clue: "penjelasan tentang plugins", // keterangan
+  clue: "penjelasan tentang plugins", // keterangan, saat ini belum diimplementasikan
   handler: "start", // bisa text, regex, array, atau sesuai fungsi type
-  exec: function (ctx) {
+  exec: async function (ctx) {
+    // gunakan async function, jika error tidak akan crash
+
     // respon dari handler
-    ctx.reply("isi pesan");
+    // gunakan await untuk menunggu promise selesai
+    // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
+    // dan akan tetap berjalan
+    return await ctx.reply("isi pesan");
   },
 };
 
 ```
+
+Untuk diingat, selalu gunakanlah `async` dan `await` untuk mencegah bot crash jika terjadi error
 
 ### Tipe
 
