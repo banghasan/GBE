@@ -26,7 +26,7 @@ export default {
 
     // respon dari handler
     // gunakan await untuk menunggu promise selesai
-    // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
+    // jika menggunakan await, maka jika terjadi error bot tidak akan crash
     // dan akan tetap berjalan
     return await ctx.reply("isi pesan");
   },

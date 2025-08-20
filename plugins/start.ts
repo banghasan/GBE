@@ -15,7 +15,7 @@ export default {
   handler: 'start',
   exec: async function (ctx) { // gunakan async function, jika error tidak akan crash
     // gunakan await untuk menunggu promise selesai
-    // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
+    // jika menggunakan await, maka jika terjadi error bot tidak akan crash
     // dan akan tetap berjalan
     if (ctx.config.isOwner) {
       return await ctx.replyItHTML("Welcome, You're my <b>Bos</b>!")
