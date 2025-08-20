@@ -10,7 +10,9 @@ export default {
   type: 'on', // command, hears, on, callbackQuery
   clue: 'Fungsi: welcome bot ketika ada yang masuk',
   handler: 'message:new_chat_members',
-  exec: async function async(ctx) { // gunakan async function, jika error tidak akan crash
+  // contoh lain format exec
+  exec: async (ctx) => { 
+    // gunakan async function, jika error tidak akan crash
     // gunakan await untuk menunggu promise selesai
     // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
     // dan akan tetap berjalan
