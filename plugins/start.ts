@@ -8,14 +8,19 @@
 */
 
 export default {
-  name: "start",
-  status: true,
-  type: "command", // command, hears, reaction, on, callbackQuery
-  clue: ["Fungsi: Start command bot", "Format:\n <code>/start</code>"],
-  handler: "start",
-  exec: function (ctx) {
-    if (ctx.config.isOwner)
-      return ctx.replyItHTML("Welcome, You're my <b>Bos</b>!");
-    ctx.replyIt(`😵‍💫 Haiii, selamat datang ${ctx.from.first_name} !`);
+  name: 'start',
+  status: true, // status true jika ingin diaktifkan, false jika tidak ingin diaktifkan
+  type: 'command', // command, hears, reaction, on, callbackQuery
+  clue: ['Fungsi: Start command bot', 'Format:\n <code>/start</code>'],
+  handler: 'start',
+  exec: async function (ctx) { // gunakan async function, jika error tidak akan crash
+    // gunakan await untuk menunggu promise selesai
+    // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
+    // dan akan tetap berjalan
+    if (ctx.config.isOwner) {
+      return await ctx.replyItHTML("Welcome, You're my <b>Bos</b>!")
+    }
+    // gunakan await untuk menunggu promise selesai
+    return await ctx.replyIt(`😵‍💫 Haiii, selamat datang ${ctx.from.first_name} !`)
   },
-};
+}

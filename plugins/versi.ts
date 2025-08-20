@@ -9,12 +9,15 @@
 */
 
 export default {
-  name: "versi",
+  name: 'versi',
   status: false,
-  type: "hears", // command, hears, reaction, on, callbackQuery
-  clue: ["Fungsi: cek versi", "Format:\n <code>.ver</code>"], 
-  handler: /^[!\/\.]((ver|per)(si|tion)?|about|tentang)?$/i, // command untuk handle: ver, versi, persi, version, about, tentang
-  exec: function async(ctx) {
-    ctx.replyIt("Override version!");
+  type: 'hears', // command, hears, reaction, on, callbackQuery
+  clue: ['Fungsi: cek versi', 'Format:\n <code>.ver</code>'],
+  handler: /^[!\/\.]((ver|per)(si|tion)?|about|tentang)?$/i,
+  exec: async function async(ctx) { // gunakan async function, jika error tidak akan crash
+    // gunakan await untuk menunggu promise selesai
+    // jika tidak menggunakan await, maka jika terjadi error bot tidak akan crash
+    // dan akan tetap berjalan
+    return await ctx.replyIt('Override version!')
   },
-};
+}
