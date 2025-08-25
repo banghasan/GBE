@@ -8,7 +8,7 @@ Dibuat untuk mempermudah membuat bot dengan custom script secara bebas dan lelua
 ### 1. Download
 Download release terbaru 
 
-=> [Release](https://github.com/banghasan/GBE/releases)
+=> [Release](https://github.com/banghasan/GBE/releases/latest)
 
 Sesuaikan dengan OS yang dipakai.
 Jika linux jangan lupa di kasih akses execution (+x).
