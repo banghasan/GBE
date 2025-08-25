@@ -6,7 +6,11 @@ Dibuat untuk mempermudah membuat bot dengan custom script secara bebas dan lelua
 ## Menjalankan
 
 ### 1. Download
-Download release terbaru sesuai OS kalian masing-masing.
+Download release terbaru 
+
+=> [Release](https://github.com/banghasan/GBE/releases)
+
+Sesuaikan dengan OS yang dipakai.
 Jika linux jangan lupa di kasih akses execution (+x).
 
 Misalnya:
