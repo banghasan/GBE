@@ -89,6 +89,12 @@ daftar perintah yang sudah built-in di dalam bot
 - `/ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
 - `/die` perintah untuk mematikan bot (hanya owner)
 
+## Tutorial
+
+### Bagian 1: Menjalankan Bot Telegram dengan GBE
+
+[![Watch the video](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/gbe1-part1.jpg?raw=true)](https://youtu.be/X-_QemvLDzE)
+
 ## Diskusi
 
 Silakan bergabung pada grup telegram [@botIndonesia](https://t.me/botindonesia)
