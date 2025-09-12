@@ -1,5 +1,5 @@
 # GeDEBUG Bot Engine for Telegram Bot API
-Dibuat untuk mempermudah membuat bot dengan custom script secara bebas dan leluasa.
+gBE dibuat untuk mempermudah pembuatan bot, dengan dukungan penuh terhadap custom script yang bisa ditulis secara bebas dan fleksibel, sesuai kebutuhan masing-masing pengguna.
 
 ![screenshot](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/ss01.jpg?raw=true)
 
@@ -10,10 +10,12 @@ Download release terbaru
 
 => [Release](https://github.com/banghasan/GBE/releases/latest)
 
-Sesuaikan dengan OS yang dipakai.
-Jika linux jangan lupa di kasih akses execution (+x).
+Pastikan menyesuaikan file instalasi dengan sistem operasi yang digunakan.
 
-Misalnya:
+Dan khusus untuk pengguna Linux, jangan lupa memberikan hak eksekusi pada file tersebut, dengan menambahkan izin `+x`
+
+#### Linux
+Usai download lakukan perubahan izin akses
 
 ```sh
 chmod +x gBE_x64
@@ -70,7 +72,8 @@ Test Bot nya!
 
 ## Plugins
 
-Untuk memudahkan bisa membuat dan memodifikasi perintah atau respon, dapat disisipkan script file pada folder `plugins` (sesuai seting di `.env`)
+Untuk mempermudah dalam membuat maupun memodifikasi perintah serta respon bot,
+kamu dapat menyisipkan file script pada folder `plugins`
 
 - Penjelasan dapat dilihat pada halaman [plugins](plugins.md)
 - Sample bisa dilihat pada [folder plugins](plugins)
@@ -79,11 +82,12 @@ Untuk memudahkan bisa membuat dan memodifikasi perintah atau respon, dapat disis
 
 ### tanda perintah
 
-tanda perintah awalan secara umum dapat menggunakan salah satu karakter sebagai berikut: `./!`
+Secara umum, tanda awalan perintah dapat menggunakan salah satu karakter berikut:
+`.` , `/`, atau `!`
 
 ### command
 
-daftar perintah yang sudah built-in di dalam bot
+Berikut adalah daftar perintah bawaan atau built-in commands yang sudah tersedia secara default di dalam bot.
 
 - `versi` perintah untuk mengecek versi bot saat ini
 - `/ping` perintah untuk mengecek hidup tidak bot berikut informasi respon time nya
