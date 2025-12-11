@@ -3,7 +3,31 @@ gBE dibuat untuk mempermudah pembuatan bot, dengan dukungan penuh terhadap custo
 
 ![screenshot](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/ss01.jpg?raw=true)
 
-## Menjalankan
+## Docker
+
+### Compose
+
+Buat file `compose.yml` dengan isi berikut:
+
+
+```yml
+services:
+  gbe:
+    image: ghcr.io/banghasan/gbe:latest
+    container_name: gbe
+    volumes:
+      - ./plugins:/app/plugins
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+    # ports:
+    #   - "${WEBHOOK_PORT:-2306}:2306" # aktifkan jika memakai webhook
+```
+
+### Jalankan Docker
+
+Gunakan perintah `docker compose up -d`
+
+## Cara Biasa
 
 ### 1. Download
 Download release terbaru 
