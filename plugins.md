@@ -1,6 +1,6 @@
 ## Plugins
 
-Update saat dibuat dokumentasi plugins ini, release versi `1.00.0 stabil`
+Update saat dibuat dokumentasi plugins ini, release versi `1.11.0 stabil`
 
 ### Format
 

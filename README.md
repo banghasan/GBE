@@ -70,6 +70,8 @@ Test Bot nya!
 
 ![screenshot](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/ss02.jpg?raw=true)
 
+![screenshot](https://github.com/banghasan/telegram-bot-api-engine/blob/main/static/ss03.jpg?raw=true)
+
 ## Plugins
 
 Untuk mempermudah dalam membuat maupun memodifikasi perintah serta respon bot,
